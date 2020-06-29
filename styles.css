@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(202, 196, 196);
+    
+}
+
+#viewer {
+    width: 1200px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    background:white;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 5px 10px 5px rgb(100, 100, 100);
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 10px;
+}
+
+#left-part {
+    width: 60px;
+    height: 400px;
+    background: white;  
+    margin-right: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+#image-part {
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+#photo {
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img {
+    width: 1100px;
+    height: 400px;
+}
+
+
+#left-arrow {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    transform: rotate(180deg);
+    height: 50px;
+    width: 50px;
+}
+#left-arrow:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#image-info {
+    position: absolute;
+    top: 270px;
+    width: 1100px;
+    height: auto;
+    background: black;
+    opacity: 0.7;
+    padding: 3px;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    padding-left: 5px;
+    color: white;
+}
+
+p {
+    padding: 0px 5px 0px 5px;
+    color: white;
+}
+
+
+
+#right-part {
+    position: relative;
+    width: 60px;
+    height: 400px;
+    background: white;
+    margin-left: auto;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#right-arrow {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    height: 50px;
+    width: 50px;
+}
+#right-arrow:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#thumbnails-container img {
+    width: 100%;
+    height: auto;
+}
+
+#thumbnails-container {
+    width: 800px;
+    height: 85px;
+   /* background: green;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    background: pink;
+    border: 2px solid rgb(48, 45, 45);
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.thumbnail:hover {
+    border: 4px solid rgb(86, 248, 10);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.clicked {
+    border: 4px solid red;
+    box-shadow: 3px 3px 3px gray;
+}
